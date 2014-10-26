@@ -5,4 +5,4 @@ type module struct {
 	Port int
 }
 
-type modules map[string]module
+type modules map[string]interface{}

@@ -1,5 +1,5 @@
 package conf
 
 type Config struct {
-	Modules []module
+	Modules map[string]interface{}
 }
